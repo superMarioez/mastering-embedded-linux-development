@@ -1,0 +1,32 @@
+# Build outputs
+build/
+tmp*/
+output/
+*/output/
+sstate-cache/
+downloads/
+dl/
+deploy/
+
+# Toolchains / SDKs / tarballs
+x-tools/
+*.tar.*
+
+# Images & build binaries (outputs, not sources)
+*.img
+*.wic
+*.wic.*
+*.sdcard
+*.ext[234]
+*.squashfs
+MLO
+u-boot.img
+zImage
+uImage
+*.dtb
+
+# Editor / OS cruft
+.vscode/
+*.swp
+*~
+.DS_Store
